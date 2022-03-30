@@ -8,6 +8,7 @@
 
 .attribution {
     font-size: 11px;
+    font-weight: 700;
     text-align: center;
     color: #fff;
     width: 23rem;
@@ -17,7 +18,7 @@
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(216, 12%, 8%);
 }
 
 body {
@@ -60,7 +61,7 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
-.btns {
+.btnS {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
@@ -76,12 +77,12 @@ button {
     /* margin-bottom: 1.5rem; */
 }
 
-.btns button:hover {
+.btnS button:hover {
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
 }
 
-.btns button:focus {
+.btnS button:focus {
     background-color: hsl(0, 0%, 84%);
     cursor: pointer;
 }
@@ -98,6 +99,7 @@ button {
 }
 
 .card {
+    display: none;
     max-width: 23rem;
     margin: 2rem auto;
     border-radius: 1rem;
@@ -129,10 +131,25 @@ button {
 
 .appreciate {
     text-align: center;
-    font-size: 13px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.back {
+    width: 2rem;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.fa-arrow-left {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.fa-arrow-left:hover {
+    color: hsl(25, 97%, 53%);
 }
 
 @media only screen and (max-width: 600px) {
