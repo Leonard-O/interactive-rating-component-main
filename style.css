@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    width: 23rem;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    max-width: 1440px;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    max-width: 23rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.main {
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.star {
+    color: hsl(25, 97%, 53%);
+    font-size: 1rem;
+    background-color: rgba(67, 74, 83, 1);
+    padding: 0.9rem;
+    border-radius: 10rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5rem;
+    color: hsl(0, 0%, 100%);
+    background-color: rgba(67, 74, 83, 1);
+    /* margin-bottom: 1.5rem; */
+}
+
+.btns button:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.btns button:focus {
+    background-color: hsl(0, 0%, 84%);
+    cursor: pointer;
+}
+
+.submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card {
+    max-width: 23rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.phone {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 2rem;
+}
+
+.selected {
+    background-color: rgba(67, 74, 83, 1);
+    width: 10rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 5rem;
+    color: hsl(25, 97%, 53%);
+    padding: 0.3rem;
+    font-size: 15px;
+}
+
+.thanks {
+    text-align: center;
+    margin: 1rem;
+}
+
+.appreciate {
+    text-align: center;
+    font-size: 13px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    /* body {
+        max-width: 375px;
+        height: 100%;
+        background-color: hsl(216, 12%, 8%);
+    } */
+    .container {
+        max-width: 22rem;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .card {
+        max-width: 22rem;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        background-color: hsl(213, 19%, 18%);
+    }
+    .attribution {
+        /* font-size: 11px;
+        text-align: center;
+        color: #fff; */
+        width: 22rem;
+        margin: auto;
+        /* background-color: hsl(25, 97%, 53%); */
+    }
+}
