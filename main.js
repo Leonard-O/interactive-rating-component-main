@@ -8,7 +8,7 @@ const back = document.querySelector('#back');
 let value = '';
 toggleDisabled(true);
 
-// toggleDisabled function added below
+// toggleDisabled function
 
 function toggleDisabled(bool) {
     if (bool) {
@@ -22,7 +22,6 @@ btnS.addEventListener('click', (event) => {
     value = event.target.innerText;
     span.innerText = value;
 
-    // 1 line added below
     toggleDisabled(false);
 });
 
@@ -33,8 +32,6 @@ submit.addEventListener('click', () => {
     back.addEventListener('click', () => {
         card.style.display = 'none';
         main.style.display = 'block';
-
-        // 2 lines added below
 
         value = '';
         toggleDisabled(true);
